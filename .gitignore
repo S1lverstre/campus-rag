@@ -4,3 +4,7 @@ __pycache__/
 *.log
 streamlit.log
 evaluation.md
+.idea/
+faiss_index/
+streamlit.log
+evaluation.md
