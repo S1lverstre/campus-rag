@@ -26,7 +26,7 @@ while True:
         break
 
     # 1. 检索：从知识库找最相关的5个片段
-    hits = db.similarity_search(q, k=5)
+    hits = db.similarity_search(q, k=1)
 
     # 2. 组装 Prompt：资料 + 问题，要求模型只依据资料回答
     context = "\n\n".join(f"[片段{i+1}] {h.page_content}" for i, h in enumerate(hits))
