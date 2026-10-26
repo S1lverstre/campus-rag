@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="~\WorkBuddy\2026-10-25-17-26-31\campus-rag\.venv" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PackageRequirementsSettings" />
+  <component name="PyDocumentationSettings" />
+  <component name="ReSTService" />
+  <component name="TestRunnerService" />
+</module>
