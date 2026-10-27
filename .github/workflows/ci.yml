@@ -1,0 +1,26 @@
+# campus-rag CI：离线冒烟测试随 push/PR 自动运行（不调用任何外部 API）
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  offline-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: 安装依赖
+        run: |
+          pip install -r requirements.txt
+          pip install pytest
+
+      - name: 运行离线冒烟测试
+        run: pytest test_offline.py -v

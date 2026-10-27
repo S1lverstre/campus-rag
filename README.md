@@ -1,5 +1,7 @@
 # 🎓 安大校园问答助手（Campus RAG Assistant）
 
+[![CI](https://github.com/S1lverstre/campus-rag/actions/workflows/ci.yml/badge.svg)](https://github.com/S1lverstre/campus-rag/actions/workflows/ci.yml)
+
 基于 RAG（检索增强生成）的安徽大学校园知识库问答系统。用户用自然语言提问，系统从本地知识库中检索最相关的文档片段，交由大模型生成**带引用来源**的回答，知识库外问题会诚实拒答。
 
 ## ✨ 项目亮点
